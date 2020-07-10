@@ -503,7 +503,7 @@ a {
   margin-left: 10px;
 }
 .subscription {
-  display: flex;
+  display: block;
   align-items: center;
   margin-left: 94px;
 }
@@ -630,4 +630,42 @@ a {
   border-left: 1px solid #eeeeee;
 }
 .curent {
+}
+
+/* 
+FORM
+*/
+
+.form-field input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: #2f303a;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 12px;
+}
+.form-field-button {
+  color: var(--text-white-color);
+  font: bold 16px/30px Roboto, serif;
+  padding: 10px 62px 10px 29px;
+  letter-spacing: 0.06em;
+  background-color: var(--link-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+.form-field {
+  display: flex;
+  position: relative;
+}
+.button-svg {
+  position: absolute;
+  fill: var(--text-white-color);
+  width: 24px;
+  height: 24px;
+  top: 13px;
+  right: 13px;
 }
